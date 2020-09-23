@@ -1,43 +1,47 @@
 # Backend
 
-Acesses folder backend:
+Acesse a pasta do backend:
 
     cd backend/
 
-## How to build
+## Como buildar
 
     docker-compose build
 
-## How to run
+## Como iniciar
 
     docker-compose up
 
-and go to:
+e depois acesse:
 
     http://localhost:8000
 
-## Documentation
+## Documentação
 
     swagger - http://localhost:8000/docs
     redoc - http://localhost:8000/redoc
 
-## Pgadmin4
+## Pgadmin
 
     http://localhost:5050
 
 
 # Frontend
 
-Acesses folder backend:
+Acesse a pasta do frontend:
 
     cd frontend/
 
 
-## How to run
+## Como instalar
+
+    yarn install
+
+## Como iniciar
     
-    yarn build
+    yarn start
     
-and go to:
+e depois acesse:
     
     http://localhost:3000
     
